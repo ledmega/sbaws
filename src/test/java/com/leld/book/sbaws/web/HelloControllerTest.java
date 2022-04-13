@@ -22,7 +22,7 @@ public class HelloControllerTest {
     private MockMvc mvc;
 
     @Test
-    public void hello_return() throws Exception{
+    public void hello가_리턴된다() throws Exception{
         String hello = "hello";
 
         mvc.perform(get("/hello"))
@@ -31,7 +31,7 @@ public class HelloControllerTest {
     }
 
     @Test
-    public void helloDtd_return() throws Exception{
+    public void helloDtd가_리턴된다() throws Exception{
         String name = "hello";
         int amount = 1000;
 
